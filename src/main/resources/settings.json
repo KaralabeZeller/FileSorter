@@ -1,0 +1,17 @@
+{
+  "copyOnly": false,
+  "linkBack": true,
+  "downloadDir": "D:\#Downloads",
+  "targetDirs" : {
+    "movie" : "E:\#Movies",
+    "show"  : "E:\#Shows",
+    "music" : "E:\#Music"
+  },
+  "conditions": {
+    "show" : ["mkv", "avi", "720p","1080p", "HDTV", "season", "s[0-9]+", "e[0-9]+"],
+    "movie": ["mkv", "avi", "720p","1080p", "HD", "BD", "DVD", "x264", "5.1"],
+    "music": ["mp3", "aac", "flac", "wav"],
+    "app"  : ["exe", "msi", "iso", "PC"],
+    "text" : ["pdf", "docx", "xlsx", "ppt"]
+  }
+}
